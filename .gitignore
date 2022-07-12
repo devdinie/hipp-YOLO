@@ -1,5 +1,6 @@
 *.ipynb
 *tests
+<<<<<<< HEAD
 old_scripts/keras_yolo3/yolov3.weights
 TrainYourOwnYOLO/Data/Model_Weights/1657577814/step1_loss.npy
 TrainYourOwnYOLO/Data/Model_Weights/1657577814/step1_val_loss.npy
@@ -11,3 +12,6 @@ TrainYourOwnYOLO/Data/Source_Images/Test_Image_Detection_Results/*jpg
 TrainYourOwnYOLO/Data/Source_Images/Training_Images/*jpg
 TrainYourOwnYOLO/Data/Source_Images/Training_Images/*json
 TrainYourOwnYOLO/Data/Source_Images/Training_Images/vott*
+=======
+keras_yolo3/yolov3.weights
+>>>>>>> c04bc3a37167778b0a2fdadc034f7999d062447d
