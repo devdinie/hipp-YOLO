@@ -2,6 +2,7 @@
 *tests
 <<<<<<< HEAD
 old_scripts/keras_yolo3/yolov3.weights
+<<<<<<< HEAD
 Data/Model_Weights/1657577814/step1_loss.npy
 Data/Model_Weights/1657577814/step1_val_loss.npy
 Data/Model_Weights/1657577814/step2_loss.npy
@@ -18,6 +19,8 @@ data/
 =======
 <<<<<<< HEAD
 old_scripts/keras_yolo3/yolov3.weights
+=======
+>>>>>>> fb6d3d8f7e839b50a57221dc03f463189c3cfe75
 TrainYourOwnYOLO/Data/Model_Weights/1657577814/step1_loss.npy
 TrainYourOwnYOLO/Data/Model_Weights/1657577814/step1_val_loss.npy
 TrainYourOwnYOLO/Data/Model_Weights/1657577814/step2_loss.npy
@@ -31,4 +34,7 @@ TrainYourOwnYOLO/Data/Source_Images/Training_Images/vott*
 =======
 keras_yolo3/yolov3.weights
 >>>>>>> c04bc3a37167778b0a2fdadc034f7999d062447d
+<<<<<<< HEAD
+>>>>>>> fb6d3d8f7e839b50a57221dc03f463189c3cfe75
+=======
 >>>>>>> fb6d3d8f7e839b50a57221dc03f463189c3cfe75
