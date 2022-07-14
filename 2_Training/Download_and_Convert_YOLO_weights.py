@@ -1,3 +1,9 @@
+"""
+Modified keras-yolo3 package and scripts from: 
+Original repo: https://github.com/qqwweee/keras-yolo3
+And https://github.com/castillogo/YOLO_MRI_images.git
+"""
+
 import os
 import subprocess
 import time
