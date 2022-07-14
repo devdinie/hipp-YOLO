@@ -1,0 +1,16 @@
+,image,xmin,ymin,zmin,xmax,ymax,zmax,label
+0,../1_Image_AnnotationADNI020S6566_labels_L_rC0000-n00-d0-sp0000-gh0.nii,44,52,64,66,82,85,1
+1,../1_Image_AnnotationADNI024S6385_labels_L_rC0000-n00-d0-sp0000-gh0.nii,47,45,72,69,75,90,1
+2,../1_Image_AnnotationADNI020S6566_labels_R_rC0000-n00-d0-sp0000-gh0.nii,42,49,64,63,78,86,1
+3,../1_Image_AnnotationADNI020S6533_labels_L_rC0000-n00-d0-sp0000-gh0.nii,44,52,64,66,82,85,1
+4,../1_Image_AnnotationADNI024S6311_labels_R_rC0000-n00-d0-sp0000-gh0.nii,43,47,75,65,76,92,1
+5,../1_Image_AnnotationADNI020S6511_labels_L_rC0000-n00-d0-sp0000-gh0.nii,44,52,64,66,82,85,1
+6,../1_Image_AnnotationADNI020S6500_labels_L_rC0000-n00-d0-sp0000-gh0.nii,44,52,64,66,82,85,1
+7,../1_Image_AnnotationADNI020S6511_labels_R_rC0000-n00-d0-sp0000-gh0.nii,42,49,64,63,78,86,1
+8,../1_Image_AnnotationADNI020S6522_labels_R_rC0000-n00-d0-sp0000-gh0.nii,42,49,64,63,78,86,1
+9,../1_Image_AnnotationADNI024S6333_labels_L_rC0000-n00-d0-sp0000-gh0.nii,47,45,72,69,75,90,1
+10,../1_Image_AnnotationADNI024S6385_labels_R_rC0000-n00-d0-sp0000-gh0.nii,43,47,75,65,76,92,1
+11,../1_Image_AnnotationADNI020S6533_labels_R_rC0000-n00-d0-sp0000-gh0.nii,42,49,64,63,78,86,1
+12,../1_Image_AnnotationADNI024S6300_labels_L_rC0000-n00-d0-sp0000-gh0.nii,47,45,72,69,75,90,1
+13,../1_Image_AnnotationADNI024S6322_labels_L_rC0000-n00-d0-sp0000-gh0.nii,47,45,72,69,75,90,1
+14,../1_Image_AnnotationADNI024S6333_labels_R_rC0000-n00-d0-sp0000-gh0.nii,43,47,75,65,76,92,1

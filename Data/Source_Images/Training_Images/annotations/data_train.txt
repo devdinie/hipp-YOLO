@@ -1,0 +1,15 @@
+../Data/Source_Images/Training_Images/annotations/ADNI020S6566_labels_L_rC0000-n00-d0-sp0000-gh0.nii 44,52,66,82,0
+../Data/Source_Images/Training_Images/annotations/ADNI024S6385_labels_L_rC0000-n00-d0-sp0000-gh0.nii 47,45,69,75,0
+../Data/Source_Images/Training_Images/annotations/ADNI020S6566_labels_R_rC0000-n00-d0-sp0000-gh0.nii 42,49,63,78,0
+../Data/Source_Images/Training_Images/annotations/ADNI020S6533_labels_L_rC0000-n00-d0-sp0000-gh0.nii 44,52,66,82,0
+../Data/Source_Images/Training_Images/annotations/ADNI024S6311_labels_R_rC0000-n00-d0-sp0000-gh0.nii 43,47,65,76,0
+../Data/Source_Images/Training_Images/annotations/ADNI020S6511_labels_L_rC0000-n00-d0-sp0000-gh0.nii 44,52,66,82,0
+../Data/Source_Images/Training_Images/annotations/ADNI020S6500_labels_L_rC0000-n00-d0-sp0000-gh0.nii 44,52,66,82,0
+../Data/Source_Images/Training_Images/annotations/ADNI020S6511_labels_R_rC0000-n00-d0-sp0000-gh0.nii 42,49,63,78,0
+../Data/Source_Images/Training_Images/annotations/ADNI020S6522_labels_R_rC0000-n00-d0-sp0000-gh0.nii 42,49,63,78,0
+../Data/Source_Images/Training_Images/annotations/ADNI024S6333_labels_L_rC0000-n00-d0-sp0000-gh0.nii 47,45,69,75,0
+../Data/Source_Images/Training_Images/annotations/ADNI024S6385_labels_R_rC0000-n00-d0-sp0000-gh0.nii 43,47,65,76,0
+../Data/Source_Images/Training_Images/annotations/ADNI020S6533_labels_R_rC0000-n00-d0-sp0000-gh0.nii 42,49,63,78,0
+../Data/Source_Images/Training_Images/annotations/ADNI024S6300_labels_L_rC0000-n00-d0-sp0000-gh0.nii 47,45,69,75,0
+../Data/Source_Images/Training_Images/annotations/ADNI024S6322_labels_L_rC0000-n00-d0-sp0000-gh0.nii 47,45,69,75,0
+../Data/Source_Images/Training_Images/annotations/ADNI024S6333_labels_R_rC0000-n00-d0-sp0000-gh0.nii 43,47,65,76,0
