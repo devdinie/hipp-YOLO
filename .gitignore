@@ -1,40 +1,22 @@
 *.ipynb
 *tests
-<<<<<<< HEAD
+YOLO/model_files/*.h5
+YOLO/model_files/*.weights
+YOLO/__pycache__
+2_Training/src/keras_yolo3/*.h5
+2_Training/src/keras_yolo3/*weights
 old_scripts/keras_yolo3/yolov3.weights
-<<<<<<< HEAD
-Data/Model_Weights/1657577814/step1_loss.npy
-Data/Model_Weights/1657577814/step1_val_loss.npy
-Data/Model_Weights/1657577814/step2_loss.npy
-Data/Model_Weights/1657577814/step2_val_loss.npy
+Data/Model_Weights/*
 ./__pycache__/*
 Data/Source_Images/Test_Images/*jpg
 Data/Source_Images/Test_Image_Detection_Results/*jpg
 Data/Source_Images/Training_Images/*jpg
 Data/Source_Images/Training_Images/*json
 Data/Source_Images/Training_Images/*nii
-keras_yolo3/yolov3.weights
 data/
-2_Training/src/keras_yolo3/yolo.h5
-=======
-<<<<<<< HEAD
-old_scripts/keras_yolo3/yolov3.weights
-=======
->>>>>>> fb6d3d8f7e839b50a57221dc03f463189c3cfe75
-TrainYourOwnYOLO/Data/Model_Weights/1657577814/step1_loss.npy
-TrainYourOwnYOLO/Data/Model_Weights/1657577814/step1_val_loss.npy
-TrainYourOwnYOLO/Data/Model_Weights/1657577814/step2_loss.npy
-TrainYourOwnYOLO/Data/Model_Weights/1657577814/step2_val_loss.npy
-./__pycache__/*
+TrainYourOwnYOLO/Data/Model_Weights/*
 TrainYourOwnYOLO/Data/Source_Images/Test_Images/*jpg
 TrainYourOwnYOLO/Data/Source_Images/Test_Image_Detection_Results/*jpg
 TrainYourOwnYOLO/Data/Source_Images/Training_Images/*jpg
 TrainYourOwnYOLO/Data/Source_Images/Training_Images/*json
 TrainYourOwnYOLO/Data/Source_Images/Training_Images/vott*
-=======
-keras_yolo3/yolov3.weights
->>>>>>> c04bc3a37167778b0a2fdadc034f7999d062447d
-<<<<<<< HEAD
->>>>>>> fb6d3d8f7e839b50a57221dc03f463189c3cfe75
-=======
->>>>>>> fb6d3d8f7e839b50a57221dc03f463189c3cfe75
