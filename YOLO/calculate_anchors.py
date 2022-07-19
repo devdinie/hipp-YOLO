@@ -17,7 +17,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 img_size = settings.img_size[0]
-no_clusters = 1
+no_clusters = 3
 
 def iou(box, clusters):
         
@@ -33,6 +33,7 @@ def iou(box, clusters):
         cluster_area = clusters[:, 0] * clusters[:, 1] * clusters[:, 2]
 
         iou_ = intersection / (box_area + cluster_area - intersection)
+        print(iou_)
         return iou_
 
 
@@ -99,6 +100,9 @@ def get_anchors(annotations):
         ratios = np.around(kmeans_output[:, 0] / kmeans_output[:, 1], decimals=3).tolist()
         print("Ratios:\n {}".format(sorted(ratios)))
         
-        anchor_file = open(os.path.join("model_files","data_train_normalized.txt"),"a")
-        with anchor_file as file: anchor_file.write(np.array2string(kmeans_output[0].astype(int),separator=',').strip('[]'))
+        anchor_file = open(os.path.join("model_files","anchors.txt"),"a")
+        with anchor_file as file: 
+                for anchor in kmeans_output:
+                        anchor_file.write(np.array2string(anchor.astype(int),separator=',').strip('[]'))
+                        anchor_file.write(' ')
         anchor_file.close()
