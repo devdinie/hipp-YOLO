@@ -26,7 +26,7 @@ net2data_dname= "data_net2_seg"
 #endregion define mode and main directory paths
 
 #region image related settings
-img_size = (144,144,144)
+img_size = (160,160,160)
 imgio_type = "NiftiImageIO"
 #endregion image related settings
 
