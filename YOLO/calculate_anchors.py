@@ -75,30 +75,21 @@ def get_anchors(annotations):
                 for line in file:
                         line_arr = line.strip('\n').split(",")
                         dim_arr  = copy.copy(line_arr[1:len(line_arr)]) 
-                        
-                        """
-                        width  = round((float(dim_arr[4]) - float(dim_arr[1])),3)
-                        height = round((float(dim_arr[5]) - float(dim_arr[2])),3)
-                        depth  = round((float(dim_arr[3]) - float(dim_arr[6])),3)
-                        
-                        x_ctr = round(((float(dim_arr[4]) + float(dim_arr[1]))/2),3)
-                        y_ctr = round(((float(dim_arr[5]) + float(dim_arr[2]))/2),3)
-                        z_ctr = round(((float(dim_arr[3]) + float(dim_arr[6]))/2),3)
-                        """
-                        width  = round((float(dim_arr[4]) - float(dim_arr[1])),3)
-                        height = round((float(dim_arr[5]) - float(dim_arr[2])),3)
-                        depth  = round((float(dim_arr[3]) - float(dim_arr[6])),3)
-                        
+
+                        width  = round((float(dim_arr[3]) - float(dim_arr[0])),3)
+                        height = round((float(dim_arr[4]) - float(dim_arr[1])),3)
+                        depth  = round((float(dim_arr[5]) - float(dim_arr[2])),3)
+
                         annotations_yolo.append([width, height, depth])
         annot_file.close()
-        
+
         kmeans_output = kmeans(np.array(annotations_yolo))
         
-        print("Accuracy: {:.2f}%".format(avg_iou(np.array(annotations_yolo), kmeans_output) * 100))
-        print("Boxes:\n {}".format(kmeans_output))
+        #print("Accuracy: {:.2f}%".format(avg_iou(np.array(annotations_yolo), kmeans_output) * 100))
+        #print("Boxes:\n {}".format(kmeans_output))
         
-        ratios = np.around(kmeans_output[:, 0] / kmeans_output[:, 1], decimals=3).tolist()
-        print("Ratios:\n {}".format(sorted(ratios)))
+        #ratios = np.around(kmeans_output[:, 0] / kmeans_output[:, 1], decimals=3).tolist()
+        #print("Ratios:\n {}".format(sorted(ratios)))
         
         anchor_file = open(os.path.join("model_files","anchors.txt"),"a")
         with anchor_file as file: 
@@ -106,3 +97,5 @@ def get_anchors(annotations):
                         anchor_file.write(np.array2string(anchor.astype(int),separator=',').strip('[]'))
                         anchor_file.write(' ')
         anchor_file.close()
+        print("Custom anchors saved to ",annotations )
+        
